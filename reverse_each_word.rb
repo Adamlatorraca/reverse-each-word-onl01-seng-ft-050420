@@ -13,5 +13,5 @@ def reverse_each_word(string)
   original_collect.collect do |string|
     reversed_collect << string.reverse
   end
-  reversed.join(" ")
+  reversed_collect.join(" ")
 end
